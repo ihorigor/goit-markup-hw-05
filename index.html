@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>hw3</title>
+		<title>Web Studio</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -40,14 +40,14 @@
 					<ul class="list flex">
 						<li class="item">
 							<a class="link" href="emailto:info@devstudio.com">
-								<svg class="icon-mail">
-									<use href="./images/sprite.svg#mail" class=""></use></svg
+								<svg class="icon-soh">
+									<use href="./images/sprite.svg#mail"></use></svg
 								>info@devstudio.com
 							</a>
 						</li>
 						<li class="item">
 							<a class="link" href="tel:+380961111111">
-								<svg class="icon-tel">
+								<svg class="icon-soh">
 									<use href="./images/sprite.svg#tel"></use>
 								</svg>
 								+38 096 111 11 11</a
@@ -63,7 +63,7 @@
 			<section class="hero">
 				<div class="container">
 					<h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-					<button class="button" name="button">Заказать услугу</button>
+					<button class="button" data-modal-open>Заказать услугу</button>
 				</div>
 			</section>
 
@@ -130,28 +130,37 @@
 					<h2 class="section-title primary">Чем мы занимаемся</h2>
 					<ul class="list flex">
 						<li class="item-work">
-							<img
-								src="./images/work-1.jpg"
-								alt="верстка, дизайн, внешнее оформление"
-								width="370"
-								height="294"
-							/>
+							<div class="product-thumb">
+								<img
+									src="./images/work-1.jpg"
+									alt="верстка, дизайн, внешнее оформление"
+									width="370"
+									height="294"
+								/>
+								<p class="work-text">Десктопные приложения</p>
+							</div>
 						</li>
 						<li class="item-work">
-							<img
-								src="./images/work-2.jpg"
-								alt="Разработка моб. приложений"
-								width="370"
-								height="294"
-							/>
+							<div class="product-thumb">
+								<img
+									src="./images/work-2.jpg"
+									alt="Разработка моб. приложений"
+									width="370"
+									height="294"
+								/>
+								<p class="work-text">Мобильные приложения</p>
+							</div>
 						</li>
 						<li class="item-work">
-							<img
-								src="./images/work-3.jpg"
-								alt="выбор цвета на планшете"
-								width="370"
-								height="294"
-							/>
+							<div class="product-thumb">
+								<img
+									src="./images/work-3.jpg"
+									alt="выбор цвета на планшете"
+									width="370"
+									height="294"
+								/>
+								<p class="work-text">Дизайнерские решения</p>
+							</div>
 						</li>
 					</ul>
 				</div>
@@ -176,28 +185,32 @@
 									<li class="soc-item">
 										<a href="" class="soc-link">
 											<svg class="soc-icon">
-												<use href="./images/sprite.svg#instagram"></use>
+												<use
+													href="./images/sprite.svg#instagram"
+													width="20"
+													height="20"
+												></use>
 											</svg>
 										</a>
 									</li>
 									<li class="soc-item">
 										<a href="" class="soc-link">
 											<svg class="soc-icon">
-												<use href="./images/sprite.svg#twit"></use>
+												<use href="./images/sprite.svg#twitter"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="soc-item">
 										<a href="" class="soc-link">
 											<svg class="soc-icon">
-												<use href="./images/sprite.svg#facebook1"></use>
+												<use href="./images/sprite.svg#facebook"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="soc-item">
 										<a href="" class="soc-link">
 											<svg class="soc-icon">
-												<use href="./images/sprite.svg#linkedin1"></use>
+												<use href="./images/sprite.svg#linkedin"></use>
 											</svg>
 										</a>
 									</li>
@@ -219,28 +232,32 @@
 									<li class="soc-item">
 										<a href="" class="soc-link">
 											<svg class="soc-icon">
-												<use href="./images/sprite.svg#instagram"></use>
+												<use
+													href="./images/sprite.svg#instagram"
+													width="20"
+													height="20"
+												></use>
 											</svg>
 										</a>
 									</li>
 									<li class="soc-item">
 										<a href="" class="soc-link">
 											<svg class="soc-icon">
-												<use href="./images/sprite.svg#twit"></use>
+												<use href="./images/sprite.svg#twitter"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="soc-item">
 										<a href="" class="soc-link">
 											<svg class="soc-icon">
-												<use href="./images/sprite.svg#facebook1"></use>
+												<use href="./images/sprite.svg#facebook"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="soc-item">
 										<a href="" class="soc-link">
 											<svg class="soc-icon">
-												<use href="./images/sprite.svg#linkedin1"></use>
+												<use href="./images/sprite.svg#linkedin"></use>
 											</svg>
 										</a>
 									</li>
@@ -262,28 +279,32 @@
 									<li class="soc-item">
 										<a href="" class="soc-link">
 											<svg class="soc-icon">
-												<use href="./images/sprite.svg#instagram"></use>
+												<use
+													href="./images/sprite.svg#instagram"
+													width="20"
+													height="20"
+												></use>
 											</svg>
 										</a>
 									</li>
 									<li class="soc-item">
 										<a href="" class="soc-link">
 											<svg class="soc-icon">
-												<use href="./images/sprite.svg#twit"></use>
+												<use href="./images/sprite.svg#twitter"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="soc-item">
 										<a href="" class="soc-link">
 											<svg class="soc-icon">
-												<use href="./images/sprite.svg#facebook1"></use>
+												<use href="./images/sprite.svg#facebook"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="soc-item">
 										<a href="" class="soc-link">
 											<svg class="soc-icon">
-												<use href="./images/sprite.svg#linkedin1"></use>
+												<use href="./images/sprite.svg#linkedin"></use>
 											</svg>
 										</a>
 									</li>
@@ -305,28 +326,32 @@
 									<li class="soc-item">
 										<a href="" class="soc-link">
 											<svg class="soc-icon">
-												<use href="./images/sprite.svg#instagram"></use>
+												<use
+													href="./images/sprite.svg#instagram"
+													width="20"
+													height="20"
+												></use>
 											</svg>
 										</a>
 									</li>
 									<li class="soc-item">
 										<a href="" class="soc-link">
 											<svg class="soc-icon">
-												<use href="./images/sprite.svg#twit"></use>
+												<use href="./images/sprite.svg#twitter"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="soc-item">
 										<a href="" class="soc-link">
 											<svg class="soc-icon">
-												<use href="./images/sprite.svg#facebook1"></use>
+												<use href="./images/sprite.svg#facebook"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="soc-item">
 										<a href="" class="soc-link">
 											<svg class="soc-icon">
-												<use href="./images/sprite.svg#linkedin1"></use>
+												<use href="./images/sprite.svg#linkedin"></use>
 											</svg>
 										</a>
 									</li>
@@ -344,13 +369,13 @@
 						<li class="clients-item">
 							<a href="" class="link">
 								<svg class="icon">
-									<use href="./images/sprite.svg#client6"></use></svg
+									<use href="./images/sprite.svg#client1"></use></svg
 							></a>
 						</li>
 						<li class="clients-item">
 							<a href="" class="link">
 								<svg class="icon">
-									<use href="./images/sprite.svg#client2"></use></svg
+									<use href="./images/sprite.svg#сlient2"></use></svg
 							></a>
 						</li>
 						<li class="clients-item">
@@ -429,21 +454,21 @@
 							<li class="soc-item">
 								<a href="" class="soc-link">
 									<svg class="soc-icon">
-										<use href="./images/sprite.svg#twit"></use>
+										<use href="./images/sprite.svg#twitter"></use>
 									</svg>
 								</a>
 							</li>
 							<li class="soc-item">
 								<a href="" class="soc-link">
 									<svg class="soc-icon">
-										<use href="./images/sprite.svg#facebook1"></use>
+										<use href="./images/sprite.svg#facebook"></use>
 									</svg>
 								</a>
 							</li>
 							<li class="soc-item">
 								<a href="" class="soc-link">
 									<svg class="soc-icon">
-										<use href="./images/sprite.svg#linkedin1"></use>
+										<use href="./images/sprite.svg#linkedin"></use>
 									</svg>
 								</a>
 							</li>
@@ -452,5 +477,13 @@
 				</div>
 			</div>
 		</footer>
+		<div class="backdrop is-hidden" data-modal>
+			<div class="modal">
+				<svg class="icon" data-modal-close>
+					<use href="./images/sprite.svg#close"></use>
+				</svg>
+			</div>
+		</div>
+		<script src="./js/modal.js"></script>
 	</body>
 </html>
