@@ -426,6 +426,7 @@ text-transform: uppercase;
 	text-decoration: none;
 	cursor: pointer;
 	border-radius: 4px;
+	transition: all var(--anmation) ;
 }
 .button:hover,
 .button:focus {
