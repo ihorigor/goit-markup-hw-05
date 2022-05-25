@@ -426,7 +426,7 @@ text-transform: uppercase;
 	text-decoration: none;
 	cursor: pointer;
 	border-radius: 4px;
-	transition: all var(--anmation) ;
+	transition: background-color var(--anmation), color var(--anmation); 
 }
 .button:hover,
 .button:focus {
